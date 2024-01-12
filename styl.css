@@ -1,0 +1,101 @@
+* {
+    font-familly: digital, sans-serif;
+  }
+   
+  body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #b5e924, #00FF6C);
+  }
+  #holder {
+    display: flex;
+    height: 385px;
+    justify-content: center;
+    align-itmes: center;
+    margin-top: 150px;
+  }
+  #calc {
+    background-color: rgb(31, 86, 104);
+    width: 320px;
+    border: 5px solid rgb(9, 9, 9);
+    padding: 7px;
+    border-radius: 3px;
+    height: 450px;
+   
+  }
+  #top {
+    width: 320px;
+    background-color: rgb(150, 146, 177);
+    height: 20px; 
+  }
+  #display {
+    width: 320px;
+    background-color: grey;
+    height: 70px; 
+    text-align: right;
+    color: white;
+    line-height: 42px;
+    font-size: 25px;
+  }
+  #clear, #zero {
+    width: 160px;
+    background-color: red;
+  }
+  #clear:hover {
+    opacity: 0.8;
+  }
+  #zero:hover{
+    opacity: 0.8;
+  }
+  #zero {
+    background-color: silver;
+  }
+  button {
+    width: 80px;
+    height: 59px;
+    margin-top: 1px;
+  }
+  .elements {
+    display: flex;
+    justify-content: center;
+  }
+  .elements-two, .elements-three, .elements-four {
+    display: flex;
+  }
+  .op{
+    display: flex;
+
+  }
+
+  #equals {
+  
+    background-color: rgb(25, 53, 138);
+    color: white;
+  }
+  #equals:hover {
+    opacity: 0.8;
+  }
+  
+  .elements-five {
+    display: flex;
+    
+  }
+  #divide:active {
+    background-color: rgb(142, 22, 54);
+  }
+  #multiply:active {
+    background-color: rgb(142, 22, 54);
+  }
+  #subtract:active {
+    background-color: rgb(142, 22, 54);
+  }
+  #add:active {
+    background-color: rgb(142, 22, 54);
+  }
+  
+#decimal{
+  color: black;
+  font-size: 35px;
+}
+  
+  
