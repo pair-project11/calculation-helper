@@ -8,7 +8,7 @@ document.addEventListener("click", function (event){
     var results = calculate(ferstnumber,operator,secendnumber)
     screen2.innerHTML= results
 
-    console.log(results.toString(),"te")
+    console.log(results.toString(),"test")
 
   }
     if (event.target.id === "add"|| event.target.id === "subtract" || event.target.id === "multiply" || event.target.id === "divide"  ){
