@@ -15,20 +15,21 @@
     margin-top: 150px;
   }
   #calc {
-    background-color: rgb(31, 86, 104);
+    background-color: rgb(70, 162, 190);
     width: 320px;
     border: 5px solid rgb(9, 9, 9);
     padding: 7px;
     border-radius: 3px;
-    height: 450px;
-   
+    height: 490px;
+ 
   }
   #top {
     width: 320px;
     background-color: rgb(150, 146, 177);
-    height: 20px; 
+    height: 50px; 
+    text-align: right;
   }
-  #display {
+  #displayy {
     width: 320px;
     background-color: grey;
     height: 70px; 
