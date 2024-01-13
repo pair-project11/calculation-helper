@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Calculator</title>
+    <link rel="stylesheet" href="area.css">
+</head>
+<header class="header">
+    <h1>Area Calculator</h1>
+</header>
+<nav class="s">
+    <a href="http://127.0.0.1:5500/calculation-helper/home.html" target="_blank" class="g">Home</a>
+    <a href="http://127.0.0.1:5500/calculation-helper/area.html" target="_blank" class="k">Area calculator</a>
+    <a href="../calculation-helper/index.html" target="_blank" class="e">Calculator</a>
+    <a href="mailto:wassim.medimagh@gmail.com"target="_blank" class="b">contact</a>
+</nav>
+    <a href=""></a>http://127.0.0.1:5500/calculation-helper/area.html
+<div class="triangle"> </div>
+<h2>Area of traingle</h2>
+<form id="trform">
+<label for="base">base</label>
+<input type="number" id="base" required><br>
+<label for="height">height</label>
+<input type="number" id="height" required><br>
+<input type="button" value="calculate" onclick="calculateAreaTriangle()">
+</form>
+<p id="result"></p>
+<div class="square"></div>
+<h3>Area of rectangle</h3>
+<form id="reform">
+    <label for="length">length</label>
+<input type="number" id="length" required><br>
+<label for="width">width</label>
+<input type="number" id="width" required><br>
+<input type="button" value="calculate" onclick="calculateAreaRectangle()">
+</form>
+<div></div>
+<p id="result"></p>
+<div class="square"></div>
+<h4>Area of square</h4>
+<form id="sqform">
+    <label for="side">side</label>
+    <input type="number" id="side" required>
+    <input type="button" value="calculate" onclick="calculateAreaSquare">
+</form>
+<p id="result"></p>
+<body>
+    <script src="area.js"></script>
+</body>
+</html>
